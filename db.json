@@ -1,11 +1,18 @@
 {
+  "banners": [
+    {"id": 1, "src": "https://papatomatoe.github.io/arduino-store-clone-images/banner_1.jpg", "description": "Arduino Student Kit. Programming and electronics dr homeschooling. Discover it now!", "url": "/"},
+    {"id": 2, "src": "https://papatomatoe.github.io/arduino-store-clone-images/banner_2.jpg", "description": "Sensor Kit + Arduino UNO at $39.00. Grab te deal!", "url": "/"},
+    {"id": 3, "src": "https://papatomatoe.github.io/arduino-store-clone-images/banner_3.jpg", "description": "Create, connect, control with Opla IoT Kit. Order now!", "url": "/"}
+  ],
   "boards": [
     {
       "id": 1,
+      "create_date": "Wed Jul 10 2019 09:18:19 GMT+0000",
       "title": "arduino uno rev3",
       "code": "A000066",
       "barcode": "7630049200050",
       "price": 23.00,
+      "qty": 23,
       "labels": [
         "8 bit",
         "AVR",
@@ -110,10 +117,12 @@
     },
     {
       "id": 2,
+      "create_date": "Sun Mar 07 2021 12:05:31 GMT+0000",
       "title": "arduino nano every - pack",
       "code": "8542310001",
       "barcode": "every-pack",
       "price": 28.20,
+      "qty": 10,
       "labels": [],
       "description": "Get the Nano Every in bulk to run a course or power all of your projects with Arduino.",
       "overview": "<p>The Nano Every is Arduino’s 5V compatible board in the smallest available form factor: 45x18mm!</p><p>The Arduino Nano is the preferred board for many projects requiring a small and easy to use microcontroller board. One example is low cost robotics, where the Nano is broadly used. If you are in the situation of needing many boards for your classroom, or if you need to present a complex prototype with many functional blocks, this pack will offer you exactly what you need: a series of Arduino Nano Every boards at a discounted price.</p><p>The Arduino Nano Every is an evolution of the traditional Arduino Nano, but featuring a lot more powerful processor, the ATMega4809. This will allow you making larger programs than with the Arduino Uno (it has 50% more program memory), and with a lot more variables (the RAM is 200% bigger).</p><p>The pack is available in two sizes with either 3 or 6 boards of Arduino Nano Every without headers. Whether you want to minimize the size of your prototypes or share the joy of electronics with your friends, this is the best option you will find.</p>",
@@ -222,10 +231,12 @@
     },
     {
       "id": 3,
+      "create_date": "Sat Feb 27 2021 06:18:20 GMT+0000",
       "title": "arduino nano 33 ble sense",
       "code": "ABX00031",
       "barcode": "7630049201507",
       "price": 31.10,
+      "qty": 4,
       "labels": [
         "Bluetooth",
         "32 bit",
@@ -357,10 +368,12 @@
     },
     {
       "id": 4,
+      "create_date": "Fri Mar 13 2020 07:27:34 GMT+0000",
       "title": "arduino mkr nb 1500",
       "code": "ABX00019",
       "barcode": "MKRNB1500WANT",
       "price": 77.00,
+      "qty": 2,
       "labels": [
         "32 bit",
         "ARM",
@@ -523,10 +536,12 @@
     },
     {
       "id": 5,
+      "create_date": "Fri Oct 04 2019 08:34:24 GMT+0000",
       "title": "arduino mega 2560 rev3",
       "code": "A000067",
       "barcode": "7630049200067",
       "price": 40.30,
+      "qty": 12,
       "labels": [
         "8 bit",
         "AVR",
@@ -627,10 +642,12 @@
     },
     {
       "id": 6,
+      "create_date": "Mon Jan 20 2020 06:44:20 GMT+0000",
       "title": "arduino yún rev 2",
       "code": "ABX00020",
       "barcode": "7630049200029",
       "price": 56.40,
+      "qty": 17,
       "labels": [
         "WiFi",
         "Linux OS",
@@ -706,10 +723,12 @@
     },
     {
       "id": 7,
+      "create_date": "Sun Jul 26 2020 12:34:28 GMT+0000",
       "title": "arduino due",
       "code": "A000062",
       "barcode": "7630049200487",
       "price": 40.30,
+      "qty": 6,
       "labels": [],
       "description": "The Arduino Due is the first Arduino board based on a 32-bit ARM core microcontroller. With 54 digital input/output pins, 12 analog inputs, 2 DAC and 2 CAN it is the perfect board for powerful larger scale Arduino projects.",
       "overview": "<p>The <b>Arduino Due</b> is a microcontroller board based on the Atmel SAM3X8E ARM Cortex-M3 CPU. It is the first Arduino board based on a 32-bit ARM core microcontroller. It has 54 digital input/output pins (of which 12 can be used as PWM outputs), 12 analog inputs, 4 UARTs (hardware serial ports), a 84 MHz clock, an USB OTG capable connection, 2 DAC (digital to analog), 2 TWI, a power jack, an SPI header, a JTAG header, a reset button and an erase button.</p><p><b>Warning: Unlike most Arduino boards, the Arduino Due board runs at 3.3V. The maximum voltage that the I/O pins can tolerate is 3.3V. Applying voltages higher than 3.3V to any I/O pin could damage the board.</b></p><p>The board contains everything needed to support the microcontroller; simply connect it to a computer with a micro-USB cable or power it with a AC-to-DC adapter or battery to get started. The Due is compatible with all Arduino shields that work at 3.3V and are compliant with the 1.0 Arduino pinout.</p><p>The Due follows the 1.0 pinout:</p><ul><li><b>TWI</b>: SDA and SCL pins that are near to the AREF pin.</li><li><b>IOREF</b>: allows an attached shield with the proper configuration to adapt to the voltage provided by the board. This enables shield compatibility with a 3.3V board like the Due and AVR-based boards which operate at 5V.</li><li>An unconnected pin, reserved for future use.</li></ul>",
@@ -802,10 +821,12 @@
     },
     {
       "id": 8,
+      "create_date": "Wed Jan 20 2021 10:31:28 GMT+0000",
       "title": "arduino micro",
       "code": "A000053",
       "barcode": "7630049200159",
       "price": 20.70,
+      "qty": 20,
       "labels": [
         "8 bit",
         "AVR",
@@ -906,10 +927,12 @@
     },
     {
       "id": 9,
+      "create_date": "Sun Oct 25 2020 06:35:23 GMT+0000",
       "title": "arduino leonardo with headers",
       "code": "A000057",
       "barcode": "8058333491141",
       "price": 20.70,
+      "qty": 17,
       "labels": [
         "8 bit",
         "AVR",
@@ -1016,10 +1039,12 @@
   "shields": [
     {
       "id": 1,
-      "name": "arduino mkr rgb shield",
+      "create_date": "Fri Nov 13 2020 11:26:31 GMT+0000",
+      "title": "arduino mkr rgb shield",
       "code": "ASX00010",
       "barcode": "7630049200517",
       "price": 44.90,
+      "qty": 10,
       "description": "84 LEDs at your service!",
       "overview": "<p>Write messages and add graphics with this shield.</p><p>A ready to use library with examples and methods is available for use to easily write static and scrollable text.</p><p>You can use this shield to show values from your board and is controllable from the Arduino IoT cloud. No need of solder, or special adapters, just plug the RGB matrix shield on top of your favourite MKR board and you are ready to go!</p><p>The mounted LED's are very dense and bright, with full RGB colours!</p>",
       "tech_spec": [
@@ -1076,10 +1101,12 @@
     },
     {
       "id": 2,
-      "name": "mkr proto large shield",
+      "create_date": "Fri Feb 07 2020 14:14:40 GMT+0000",
+      "title": "mkr proto large shield",
       "code": "TSX00002",
       "barcode": "813747020237",
-      "price": 9.10,
+      "price": 9.10,      
+      "qty": 24,
       "description": "Need more room for your MKR Proto Shield?",
       "overview": "<p>The <b>MKR Proto Large Shield</b> fits onto your MKR board using its provided female/male headers and enables you to fix it wherever you want with the mounting holes. This shield features a larger prototyping area with more than 300 solder points and makes connecting components to your board super simple, thanks to the silk that indicates the MKR board pins location</p>",
       "tech_spec": [
@@ -1143,10 +1170,12 @@
     },
     {
       "id": 3,
-      "name": "arduino mkr env shield",
+      "create_date": "Sat Aug 15 2020 07:25:24 GMT+0000",
+      "title": "arduino mkr env shield",
       "code": "ASX00011",
       "barcode": "7630049200524",
       "price": 34.40,
+      "qty": 3,
       "description": "Add environmental sensors to your MKR board at a glance.",
       "overview": "<p>The MKR ENV Shield allows a MKR board to acquire environmental data collected by an array of sensors.</p><p>These sensors are of the latest generation and measure: </p><ul><li>Atmospheric pressure</li><li>Temperature and humidity</li><li>Ultraviolet UVA intensity Ultraviolet UVB intensity</li><li>UV Index (calculated)</li><li>Light intensity (in LUX)</li></ul><p>To help you build projects and store the data collected locally, this shield has a slot for a microSD card (not provided).</p><p>There is a ready to use library with examples and methods to read values from the different sensors, that provides an easy and smooth integration path.</p>",
       "tech_spec": [
@@ -1215,10 +1244,12 @@
     },
     {
       "id": 4,
-      "name": "arduino mkr iot carrier",
+      "create_date": "Thu Jan 28 2021 06:38:10 GMT+0000",
+      "title": "arduino mkr iot carrier",
       "code": "ABX00047",
       "barcode": "7630049202597",
       "price": 57.60,
+      "qty": 10,
       "description": "The sensors, circuits and display integrated on the MKR IoT Carrier leave you free to focus on prototyping and programming your next IoT projects.",
       "overview": "<p>Open Programmable IoT Platform - build your own custom home or office automation devices.</p><p>These sensors are of the latest generation and measure: </p><p>Control what you want, how you want to. The MKR IoT Carrier provides infinite possibilities for IoT projects. No soldering required! The integrated sensors, circuits and display leave you free to focus on programming and prototyping your ideas, rather than wiring and troubleshooting.</p><p><b>Data Capture</b>: Map the environment around the carrier using the integrated temperature, humidity, and pressure sensors and collect data about movement using the 6 axis IMU and light, gesture and proximity sensors. Easily add more external sensors to capture more data from more sources via the on-board Grove connectors (x3) Data Storage: Capture and store all the data locally on an SD card, or connect to the Arduino IoT Cloud* for real-time data capture, storage and visualisation.</p><p><b>Data Visualisation</b>: Locally view real-time sensor readings on the built-in OLED Color Display and create visual or sound prompts using the embedded LEDs and buzzer.</p><p><b>Total Control</b>: Directly control small-voltage electronic appliances using the on-board relays and the five tactile buttons, with the integrated display providing a handy on-device interface for immediate control. Alternatively, connect to the Arduino IoT Cloud to manage and control your device remotely on a smartphone via the Arduino Remote IoT app.</p>",
       "tech_spec": [
@@ -1296,10 +1327,12 @@
     },
     {
       "id": 5,
-      "name": "arduino portenta vision shield - lora®",
+      "create_date": "Sun Feb 21 2021 12:14:08 GMT+0000",
+      "title": "arduino portenta vision shield - lora®",
       "code": "ASX00026",
       "barcode": "7630049202870",
       "price": 63.00,
+      "qty": 5,
       "description": "The Arduino Portenta Vision Shield is also available with Ethernet connectivity.",
       "overview": "<p>The Portenta Vision Shield LoRa® brings industry-rated features to your Arduino Portenta. This hardware add-on will let you run embedded computer vision applications, connect wirelessly via LoRa® to the Arduino Cloud or your own infrastructure, and activate your system upon the detection of sound events.</p><p>The shield comes with:</p><ul><li>a 320x320 pixels camera sensor: use one of the cores in Portenta to run image recognition algorithms using the OpenMV for Arduino editor</li><li>long range 868/915MHz LoRa wireless connectivity: get your Portenta H7 connected to the Internet of Things with low power consumption</li><li>two on-board microphones for directional sound detection: capture and analyse sound in real-time</li><li>JTAG connector: perform low-level debugging of your Portenta board or special firmware updates using an external programmer</li><li>SD-Card connector: store your captured data in the card, or read configuration files</li></ul><p>The Vision Shield LoRa® has been designed to work with the Arduino Portenta H7. The Portenta boards feature multicore 32-bit ARM® Cortex™ processors running at hundreds of megahertz, with megabytes of program memory and RAM. Portenta boards come with WiFi and Bluetooth.</p><p>Purchase this Shield together with the Portenta H7 for full performance.</p>",
       "tech_spec": [
@@ -1359,10 +1392,12 @@
     },
     {
       "id": 6,
-      "name": "arduino mkr gps shield",
+      "create_date": "Thu Jan 28 2021 09:23:11 GMT+0000",
+      "title": "arduino mkr gps shield",
       "code": "ASX00017",
       "barcode": "7630049201248",
       "price": 33.40,
+      "qty": 13,
       "description": "The low power Global Navigation Satellite System receiver shield for your georeferenced projects.",
       "overview": "<p>If you are experimenting with monitoring fleets, high-altitude scientific experiments, or any kind of project requiring localization of devices, the MKR GPS Shield will offer you the functionality you need, and it is plug 'n' play!</p><p>The MKR GPS Shield is based on the u-blox SAM-M8Q GNSS (Global Navigation Satellite System) module. It is meant to be used on top of boards in the MKR format, but thanks to its Eslov connector, it is also possible to hook it up to any board having that kind of connector available using a cable.</p><p>This module is designed to operate with different positioning services concurrently. It receives and processes the signals from GPS, GLONASS, and Galileo. It interfaces with Arduino boards either through a serial interface, when used with headers and put on top of a MKR board, or through an I2C interface and a dedicated ESLOV cable supplied as bundle.</p>",
       "tech_spec": [
@@ -1425,10 +1460,12 @@
     },
     {
       "id": 7,
-      "name": "arduino mkr imu shield",
+      "create_date": "Fri Mar 13 2020 07:13:22 GMT+0000",
+      "title": "arduino mkr imu shield",
       "code": "ASX00002",
       "barcode": "7630049200197",
       "price": 25.00,
+      "qty": 9,
       "description": "Need to integrate inertial measurements within your MKR based project? Plug in the Arduino MKR IMU shield and get the three-dimensional acceleration, yaw rate and magnetic field strength data in 3 perpendicular axes.",
       "overview": "<p>The MKR IMU Shield is based on the BNO055 absolute orientation sensor from Bosch Sensortec GmbH which integrates a triaxial 14-bit accelerometer, a triaxial 16-bit gyroscope with a range of ±2000 degrees per second and a triaxial geomagnetic sensor with a 32-bit microcontroller running the BSX3.0 FusionLib software. The sensor features three-dimensional acceleration, yaw rate and magnetic field strength data each in 3 perpendicular axes.</p>",
       "docs": "The Arduino MKR IMU Sheld is open-source hardware! You can build your own board using the following files",
@@ -1453,10 +1490,12 @@
     },
     {
       "id": 8,
-      "name": "arduino portenta breakout",
+      "create_date": "Tue Apr 21 2020 09:30:40 GMT+0000",
+      "title": "arduino portenta breakout",
       "code": "ASX00031",
       "barcode": "7630049203013",
       "price": 45.99,
+      "qty": 3,
       "description": "Maximize the power of the Portenta modules.",
       "overview": "<p>This product will be ready for shipment by mid March, 2arduino_portenta_breakout_nta Breakout board is designed to help hardware engineers and makers to prototype and help test devices connections and capacity within the Portenta family boards (e.g. the Portenta H7).</p><p>It makes all high-density connectors’ signals individually accessible, making it quick and easy to connect and test external hardware components and devices as normally needed during development in the lab.</p><p><b>Target areas</b></p><p>Prototyping</p><p><b>Application examples</b></p><p>This product is designed to work alongside the Portenta family. Please check the Getting Started guide of your Portenta board.</p><p><u>Product Development</u>: The Portenta Breakout board reduces development time for industrial grade solution automation based on the Portenta line.</p><p><u>OpenMV</u>: Connectivity to the OpenMV Global Shutter Camera Module is provided on the Portenta Breakout board allowing for rapid development of machine vision applications alongside the Portenta family.</p><p><u>Technical Education</u>: The Portenta Breakout board can act as the first point of entry for technician education in industrial grade control and embedded systems.</p><p><b>Features</b></p><ul><li>Power ON Button</li><li>Boot mode DIP switch</li><li>Connectors<ul><li>USBA</li><li>RJ45 GBit Ethernet</li><li>Micro SD card</li><li>OpenMV shutter module</li><li>MIPI 20T JTAG with trace capability</li></ul></li><li>Power<ul><li>CR2032 RTC Lithium Battery backup</li><li>External power terminal block</li></ul></li><li>I/O<ul><li>Break out all Portenta High Density connector signals</li><li>Male/female HD connectors allow interposing breakout between Portenta and shield to debug signals</li></ul></li><li>Compatibility<ul><li>Standard Portenta High Density connector pinout</li></ul></li><li>Safety information<ul><li>Class A</li></ul></li></ul>",
       "tech_spec": [
@@ -1519,10 +1558,12 @@
     },
     {
       "id": 9,
-      "name": "arduino ethernet shield 2",
+      "create_date": "Sun Jun 07 2020 12:40:22 GMT+0000",
+      "title": "arduino ethernet shield 2",
       "code": "A000024",
       "barcode": "7630049200364",
       "price": 24.80,
+      "qty": 8,
       "description": "The Arduino Ethernet Shield 2 connects your Arduino to the internet.",
       "overview": "<p>The <b>Arduino Ethernet Shield 2</b> connects your Arduino to the internet in mere minutes. Just plug this module onto your Arduino Board, connect it to your network with an RJ45 cable (not included) and follow a few simple steps to start controlling your world through the internet. As always with Arduino, every element of the platform – hardware, software and documentation – is freely available and open-source. This means you can learn exactly how it's made and use its design as the starting point for your own circuits. Hundreds of thousands of Arduino Boards are already fueling people’s creativity all over the world, everyday. Join us now, Arduino is you!</p><ul><li>Operating voltage 5V (supplied from the Arduino Board)</li><li>Ethernet Controller: W5500 with internal 32K buffer</li><li>Connection speed: 10/100Mb</li><li>Connection with Arduino on SPI port</li></ul>",
       "docs": "Arduino Ethernet Shield 2 is open-source hardware! You can build your own board using the following files",
@@ -1545,10 +1586,12 @@
     },
     {
       "id": 10,
-      "name": "arduino portenta vision shield - ethernet",
+      "create_date": "Fri Mar 19 2021 08:24:09 GMT+0000",
+      "title": "arduino portenta vision shield - ethernet",
       "code": "ASX00021",
       "barcode": "7630049202481",
       "price": 47.15,
+      "qty": 2,
       "description": "The Arduino Portenta Vision Shield is also available with LoRa® connectivity.",
       "overview": "<p>The Portenta Vision Shield brings industry-rated features to your Arduino Portenta. This hardware add-on will let you run embedded computer vision applications, connect wirelessly or via Ethernet to the Arduino Cloud or your own infrastructure, and activate your system upon the detection of sound events.</p><p>The shield comes with:</p><ul><li>a 320x320 pixels camera sensor: use one of the cores in Portenta to run image recognition algorithms using the OpenMV for Arduino editor</li><li>a 100 Mbps Ethernet connector: get your Portenta H7 connected to the wired Internet two on-board microphones for directional sound detection: capture and analyse sound in real time</li><li>JTAG connector: perform low-level debugging of your Portenta board or special firmware updates using an external programmer</li><li>SD-Card connector: store your captured data in the card, or read configuration files</li></ul><p>The Vision Shield Ethernet has been designed to work with the Arduino Portenta H7. The Portenta boards feature multicore 32-bit ARM® Cortex™ processors running at hundreds of megahertz, with megabytes of program memory and RAM. Portenta boards come with WiFi and Bluetooth. Purchase this Shield together with the Portenta H7 for full performance.</p>",
       "tech_spec": [
@@ -1604,10 +1647,12 @@
     },
     {
       "id": 11,
-      "name": "arduino mkr therm shield",
+      "create_date": "Fri Oct 02 2020 12:14:12 GMT+0000",
+      "title": "arduino mkr therm shield",
       "code": "ASX00012",
       "barcode": "7630049200531",
       "price": 44.90,
+      "qty": 1,
       "description": "Your solution for precise and extended range temperature measurements.",
       "overview": "<p>The MKR THERM Shield allows a board of the MKR family to acquire temperatures from a thermocouple of type K and a DS18Bxx digital one wire sensor. The Thermocouple is a kind of temperature sensor that offers high accuracy and a wide range of measured temperatures. Its analog nature requires specific interfacing and this shield relies on the MAX31855 thermocouple digital interface.</p><p>The two connectors of the MKR THERM Shield allow the usage of Type K thermocouples with or without a plug attached to the metal wires.</p><p>The MKR THERM Shield has its own library to read the temperature measured by the thermocouple. You may find further details and a usage example in our Getting Started page.</p>",
       "tech_spec": [
@@ -1668,10 +1713,12 @@
     },
     {
       "id": 12,
-      "name": "arduino mkr can shield",
+      "title": "arduino mkr can shield",
+      "create_date": "Wed Aug 12 2020 07:31:21 GMT+0000",
       "code": "ASX00005",
       "barcode": "7630049200302",
       "price": 32.10,
+      "qty": 10,
       "description": "Need to connect a device to a CAN (Controller Area Network) for communication within an automobile and with other CAN devices? The Arduino MKR CAN shield will provide automotive CAN connectivity.",
       "overview": "<p>With this shield you can easily connect to a CAN (Controller Area Network) Bus. Discover new possibilities of interaction between your Arduino MKR Board and the CAN ecosystem.</p><p>The MKR CAN shield can simplify the connection of the MKR boards with industrial systems and especially with automotive applications. This shield opens a new set of possible applications like smart vehicles, autonomous cars and drones. A CAN connection also provides the possibility to connect a MKR board directly with several types of industrial grade sensors, motors and displays.</p>",
       "tech_spec": [
@@ -1732,10 +1779,12 @@
     },
     {
       "id": 13,
-      "name": "mkr relay proto shield",
+      "create_date": "Fri Nov 20 2020 05:56:36 GMT+0000",
+      "title": "mkr relay proto shield",
       "code": "TSX00003",
       "barcode": "813747020527",
       "price": 16.00,
+      "qty": 21,
       "description": "The MKR Relay Proto Shield allows you to easily command relays with your MKR board. The shield provides two on board relays and a small prototyping area if you need to add some other component to your project.",
       "overview": "<p>The <b>MKR Relay Protoshield</b> allows you to easily add relays to your MKR board based project.</p><p>The shield provides two relays called <b>RELAY1</b> and <b>RELAY2</b> commanded by <b>pin 1</b> and <b>pin 2</b> respectively.</p><p>The shield also provides an easy connection by means of screw terminal blocks to <b>A1</b> to <b>A4</b> analog inputs, <b>I2C</b> and <b>supply voltages</b>.</p><ul><li>Operating voltage 3.3V (supplied from the host board)</li><li>Two relays with NO, COM and NC connections</li><li>Works with battery powered board</li><li>8 positions screw terminal blocks  for easy connections with A1 to A4 Analog input, SCL SDA for I2C, GND and 3.3V output</li><li>6 positions screw terminal blocks (NO, COM, NC for each relay)</li><li>Carry current: 2A</li><li>Max. operating voltage: 24 VAC, 50 VDC</li><li>Max. operating current: 1A</li><li>Max. switching capacity: 62.50 VA, 30W</li><li>Proto area</li></ul>",
       "docs": "MKR Relay Proto Shield is open-source hardware! You can build your own board using the following files",
@@ -1758,10 +1807,12 @@
     },
     {
       "id": 14,
-      "name": "arduino mkr connector carrier (grove compatible)",
+      "create_date": "Fri Feb 12 2021 14:50:27 GMT+0000",
+      "title": "arduino mkr connector carrier (grove compatible)",
       "code": "ASX00007",
       "barcode": "7630049200272",
       "price": 19.50,
+      "qty": 9,
       "description": "Want to connect several Seeed Studio Grove modules to your Arduino board? The Arduino MKR CONNECTOR CARRIER is the perfect companion for Arduino MKR boards and a Grove ecosystem.",
       "overview": "<p>Do you have several components to connect to your project and would rather use connectors instead of soldering? The Arduino MKR CONNECTOR CARRIER provides Seeed Studio's Grove connectors to your MKR board.</p><p>The MKR CONNECTOR CARRIER shield is an essential tool for rapidly prototyping activity. It allows you to connect easily and quickly sensors with Grove connectors. This shield can allow you to build applications with different IoT connectivities by simply changing the MKR board and with almost no changes to the code. </p><p><b>PLEASE NOTE: a limited number of boards have a wrong labeling on the solder side. Please refer to the current image for the correct labeling. The component side labels are correct on all the boards; refer to them for your connections.</b></p>",
       "docs": "The Arduino MKR Connector Carrier is open-source hardware! You can build your own board using the following files",
@@ -1786,10 +1837,12 @@
   "kits": [
     {
       "id": 1,
-      "name": "arduino starter kit multi-language",
+      "create_date": "Fri Sep 06 2019 10:44:19 GMT+0000",
+      "title": "arduino starter kit multi-language",
       "code": "AKX00001",
       "barcode": "7633049241449",
       "price": 91.90,
+      "qty": 1,
       "description": "Get started with electronics quickly and easily - no prior experience required. Available versions: English (EN), Italiano (IT), Français (FR), Español (ES), Deutsch (DE), Japanese (JP), 中文 (CN), 한글 (KO).",
       "overview": "<p>The Arduino Engineering Kit Rev 2 provides extensive learning outcomes, giving students a strong Quickly and easily get started with learning electronics using the Arduino Starter Kit, which have a universal appeal to STEAM fans at home, businesses in STEAM industries, and schools alike. No prior experience is required, as the kits introduce both coding and electronics through fun, engaging, and hands-on projects. You can use the starter kit to teach students about current, voltage, and digital logic as well as the fundamentals of programming. There’s an introduction to sensors and actuators and how to understand both digital and analog signals. Within all this, you’ll be teaching students how to think critically, learn collaboratively, and solve problems.</p><p>Projects you can make:</p><ol><li>GET TO KNOW YOUR TOOLS an introduction to the basics</li><li>SPACESHIP INTERFACE design the control panel for your starship</li><li>LOVE-O-METER measure how hot-blooded you are</li><li>COLOR MIXING LAMP produce any color with a lamp that uses light as an input</li><li>MOOD CUE clue people in to how you're doing</li><li>LIGHT THEREMIN create a musical instrument you play by waving your hands</li><li>KEYBOARD INSTRUMENT play music and make some noise with this keyboard</li><li>DIGITAL HOURGLASS a light-up hourglass that can stop you from working too much</li><li>MOTORIZED PINWHEEL a colored wheel that will make your head spin</li><li>ZOETROPE create a mechanical animation you can play forward or reverse</li><li>CRYSTAL BALL a mystical tour to answer all your tough questions</li><li>KNOCK LOCK tap out the secret code to open the door</li><li>TOUCHY-FEEL LAMP a lamp that responds to your touch</li><li>TWEAK THE ARDUINO LOGO control your personal computer from your Arduino</li><li>HACKING BUTTONS create a master control for all your devices!</li></ol>",
       "images": {
@@ -1809,10 +1862,12 @@
     },
     {
       "id": 2,
-      "name": "arduino engineering kit rev2",
+      "create_date": "Fri Nov 27 2020 12:53:11 GMT+0000",
+      "title": "arduino engineering kit rev2",
       "code": "AKX00022",
       "barcode": "7630049201859",
       "price": 222.00,
+      "qty": 2,
       "description": "A versatile, hands-on learning tool that provides students an understanding of basic engineering concepts, core mechatronics, and MATLAB and Simulink programming through fun projects connected to real-world industries.",
       "overview": "<p>The Arduino Engineering Kit Rev 2 provides extensive learning outcomes, giving students a strong understanding of basic engineering concepts through fun projects that create a collaborative learning environment. Students are able to connect what they learn with real-world industries, are encouraged to think critically, and improve their depth of knowledge by learning through experimentation. Ideal for advanced high school and college students.</p><p>The Arduino Engineering Kit Rev 2 is a versatile, hands-on learning tool that demonstrates key control systems concepts, core aspects of mechatronics, and MATLAB and Simulink programming. The projects cover the basics of model-based design, control systems, image processing, robotics, signal processing, and more - plus they’re fun to do! The kit includes all the physical components you need, including learning materials and software, to build the three projects: a self-balancing motorcycle, a webcam controlled rover, and a drawing robot. There’s online step-by-step guidance, so it’s ideal for students working in small groups or for facilitating remote learning.</p><p>The kit is primarily for three types of users: students learning about mechatronics engineering, professors looking for practical resources to support their class, and makers with an interest or background in robotics, either professionally or as a hobby.</p><p><b>Adapting the kit and further experimentation</b></p><p>Educators can freely tailor the Arduino Engineering Kit Rev2 to their students´needs and their own curriculum. You can use this versatile kit as the core of a new engineering mechatronics class or freely adapt the content to your own ideas and experiments while implementing MATLAB and Simulink, for example as part of laboratories and final projects</p><p>Opportunity for lots of experimentation for both educators and students. In addition to the three projects, students have the freedom to experiment, design, and develop new solutions using the software and hardware components in the kit, which are some of the tools that are used in industry and help students learn valuable career skills they’ll use in the future. Students can also buy the kit and use it to experiment at home and for extended learning.<p/>",
       "images": {
@@ -1840,10 +1895,12 @@
     },
     {
       "id": 3,
-      "name": "arduino replacements pack",
+      "create_date": "Sun Dec 20 2020 10:42:09 GMT+0000",
+      "title": "arduino replacements pack",
       "code": "AKX00030",
       "barcode": "7630049202917",
       "price": 19.99,
+      "qty": 5,
       "description": "Need a spare part? Make sure you have an Arduino Replacements Pack on standby!",
       "overview": "<p>TEven though Arduino Education kits are jam-packed with everything you need, we know that mislaying parts in the excitement of getting hands-on in a classroom can sometimes happen.</p><p>In the Arduino Replacements Pack, you’ll find all the common electronics parts two students may need to complete their projects.</p><p>This pack has replacement parts for the Arduino Starter Kit Classroom Pack, Arduino Student Kit, Arduino Education Starter Kit, Arduino CTC 101 and ARDUINO CTC GO! - CORE MODULE.</p><p>The pack contains a total of 183 replacement parts, including a breadboard, jump wires, LEDs, resistors, transistors, sensors, and more. (It doesn’t include motors, as you’ll find they’re not lost as often! But if you do need a new motor, board, or USB cable, you can find them all in our online store.)</p><p>Note that for larger products such as CTC GO!, you may need more than one pack of replacement parts.</p>",
       "images": {
@@ -1865,10 +1922,12 @@
     },
     {
       "id": 4,
-      "name": "braccio bundle",
+      "create_date": "Mon May 11 2020 07:25:19 GMT+0000",
+      "title": "braccio bundle",
       "code": "AKX00093",
       "barcode": "745004973229145",
       "price": 240.00,
+      "qty": 1,
       "description": "Everything you need to assemble your own fully operational, Arduino-controlled robotic arm.",
       "overview": "<p>Need a free hand to hold onto all those techy bits and pieces? Then the Braccio Bundle is perfect for you! With the Arduino Uno-controlled Braccio robotic arm, you can unlock the unlimited possibilities of robotics or simply use it to take the perfect selfie.</p><ul><li>1 x TinkerKit Braccio Robot - Designed for versatility, the Braccio can be assembled in a multitude of ways to enable it to support various objects on the end of the arm. With the ability to hold items weighing up to 400g and a gripper width of 90mm, the Braccio robotic arm can grasp whatever you need either perfectly still or whilst rotating 180 degrees. Includes a Braccio shield to allow you to hook up the servos directly to your Arduino board.</li><li>1 x Arduino UNO - The Arduino Uno is the ideal board for getting started with electronics and coding. The most used and documented board in the world, you'll find lots of ideas in the Arduino Project Hub to see how you can 'Get to Grips' with your new Braccio robotic arm.</li></ul>",
       "images": {
@@ -1886,10 +1945,12 @@
     },
     {
       "id": 5,
-      "name": "arduino explore iot kit",
+      "create_date": "Sun Nov 22 2020 10:35:12 GMT+0000",
+      "title": "arduino explore iot kit",
       "code": "AKX00027",
       "barcode": "763804971129186",
       "price": 114.00,
+      "qty": 3,
       "description": "Teach students about the different applications of the Internet of Things by building real-world smart devices.",
       "overview": "<p>The <b>Arduino Explore IoT Kit</b> helps advanced high school and college students get started with the fundamental concepts of the Internet of Things. It includes all necessary hardware, software, learning content, and support.</p><p>Recommended for one or two students, the kit’s <b>hardware</b> includes one MKR 1010 board, the Maker IoT carrier with five tactile buttons and squared LCD display, a set of sensors and actuators, cables, and more (see full list in the tech specs). All components are packed into a robust reusable toolbox, ideal for storage and years of use.</p><p>The kit also gives students access to an <b>online platform with 10 exciting learning activities</b>, which introduce them to the core concepts of IoT and challenge them to build real-world applications (see more details in content).</p><p>With one Explore IoT Kit you get a <b>12-month free trial subscription to Arduino Create Maker plan</b>, the premium subscription to our online coding platform. With it, students will also learn to control objects remotely using Arduino Create and its IoT Cloud application.</p>",
       "images": {
@@ -1917,10 +1978,12 @@
   "accessories": [
     {
       "id": 1,
-      "name": "arduino workshop kit",
+      "create_date": "Sun Mar 08 2020 13:27:14 GMT+0000",
+      "title": "arduino workshop kit",
       "code": "AKX00027",
       "barcode": "763804971129186",
       "price": 39.90,
+      "qty": 5,
       "description": "The selection of all components you need to start prototyping with Arduino and bring your ideas to life.",
       "overview": "<p>The possibilities are infinite with this Kit of essential Arduino components. Prototype with the solderless breadboard to control sensors and actuators with Arduino.</p><p>You'll need some materials of your own as your progress through your project to make it really unique.</p><p>At the very least, you will need a 9V battery and a computer, but we recommend keeping some basic craft supplies handy - like paper, tape, markers and scissors.</p>",
       "images": {
@@ -1946,10 +2009,12 @@
     },
     {
       "id": 2,
-      "name": "atmega328 - microcontroller - bootloader uno",
+      "create_date": "Sat Dec 21 2019 10:35:05 GMT+0000",
+      "title": "atmega328 - microcontroller - bootloader uno",
       "code": "X000048",
       "barcode": "8058333492520",
       "price": 5.20,
+      "qty": 10,
       "description": "Atmel ATmega328 pre-loaded with boot loader",
       "overview": "<p><b>Atmel ATmega328</b> microcontoller in a DIL-28 package , pre-loaded with the Arduino UNO 16MHz bootloader. Using this device enables the use of <b>Arduino</b> code in a custom embedded project without having to use an actual <b>Arduino</b> board.</p>",
       "images": {
@@ -1965,10 +2030,12 @@
     },
     {
       "id": 3,
-      "name": "mkr2uno adapter",
+      "create_date": "Fri Sep 13 2019 12:21:15 GMT+0000",
+      "title": "mkr2uno adapter",
       "code": "TSX00005",
       "barcode": "813747020213",
       "price": 12.60,
+      "qty": 12,
       "description": "Simply mount your MKR1000 to this new adapter and plug in any of your UNO shields!",
       "overview": "<p>The MKR2UNO Adapter allows you to turn your Arduino UNO form factor based project into a MKR based one without too much effort! You can so upgrade your project with a powerful board with integrated LiPo battery charger.</p><p>Please note that currently the MKR2UNO adapter is compatible only with MKR1000 without headers</p>",
       "images": {
@@ -1990,10 +2057,12 @@
     },
     {
       "id": 4,
-      "name": "silicone sleeve arduino nano 33 ble sense",
+      "create_date": "Mon Jan 25 2021 07:34:27 GMT+0000",
+      "title": "silicone sleeve arduino nano 33 ble sense",
       "code": "C000048",
       "barcode": "7630049202757",
       "price": 8.00,
+      "qty": 23,
       "description": "Protective Silicone Case for your Arduino Nano 33 board.",
       "overview": "<p>The Arduino Nano 33 BLE Sense Protective Silicone Case is designed to perfectly fit your Arduino Nano 33 BLE Sense, and to protect it in case of adventurous experiments.</p><p>Take full advantage of the motion sensors on your board, protect it against impact with the silicon case, and launch different science experiments.</p><p>Create any kind of devices where you just need a Nano board and power like a pedometer, a smart pet collar, a noise detector, etc. and implement them quickly by using the Silicone Case.</p><p>All the sensors, the RGB LED, and the button, as well as the USB port are easily accessible.</p><p>The detachable pin sockets allow you to use the case with a breadboard!</p><p>The two pin sockets make it easy to handle the board with mounted headers, and insulate your board from potential damage or short circuits, when using the board onto conductive surfaces. The Arduino Nano 33 BLE Sense Silicone Case makes your tiny Nano board even more portable, thanks to its keyholder loop.</p><p>Bring your board everywhere you go!</p><p>The Silicone Rubber has a smooth texture, and it’s flexible enough to allow the insertion of the board with or without headers. It comes in orange color and it is made of three pieces: the board housing and two additional pin sockets. While designed for the Nano 33 BLE Sense, the Silicone Case fits also the dimensions of the Nano 33 BLE, the Nano Every, and the Nano 33 IoT.</p>",
       "images": {
@@ -2013,10 +2082,12 @@
     },
     {
       "id": 5,
-      "name": "arduino sim",
+      "create_date": "Sat Oct 17 2020 05:52:37 GMT+0000",
+      "title": "arduino sim",
       "code": "AAX00002",
       "barcode": "7630049201255",
       "price": 1.00,
+      "qty": 40,
       "description": "Arduino's SIM card to connect to the Arduino IoT Cloud, worldwide.",
       "overview": "<p>Arduino SIM card offers easy, global cellular connectivity for your Arduino IoT Cloud projects. You can monitor your devices anytime, anywhere in the world thanks to the GSM / 3G network, which currently is the most extended one. Arduino SIM is ideal for connected devices on the go, or in areas without any other reliable IoT network.</p>",
       "images": {
@@ -2038,10 +2109,12 @@
     },
     {
       "id": 6,
-      "name": "holder type uno (5pcs)",
+      "create_date": "Sat Apr 04 2020 12:59:46 GMT+0000",
+      "title": "holder type uno (5pcs)",
       "code": "X000018",
       "barcode": "8058333492537",
       "price": 9.20,
+      "qty": 1,
       "description": "With the Holder Type Uno guard your board from accidental damages and help preventing scratches on your workplace.",
       "overview": "<p>Don’t pay too much attention where to place your UNO-Type and size boards. The Holder Type Uno will help guard you boards from accidental damages. It fits every UNO sized boards, and you can choose among a number of nice colors.</p><p>Use screws to attach the board and use the different colors to tell your board from friends’ working with you or the usage, and they also help prevent table scratches.</p>",
       "images": {
@@ -2059,10 +2132,12 @@
     },
     {
       "id": 7,
-      "name": "box for arduino",
+      "create_date": "Wed Feb 12 2020 14:52:36 GMT+0000",
+      "title": "box for arduino",
       "code": "M000015",
       "barcode": "8058333491912",
       "price": 8.69,
+      "qty": 3,
       "description": "Board Enclosure is what you need to protect your Arduino boards!",
       "overview": "<p>Board Enclosure is what you need to protect your Arduino Board. Specifically designed for the Arduino Uno, Zero, Mega, Due; it accommodates the board and your shield perfectly and keep your standalone projects safe from short circuits and external hazards</p>",
       "images": {
